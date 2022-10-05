@@ -1,0 +1,105 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+  }
+  .container {
+    max-width: 960px;
+    margin: 30px auto;
+    padding: 20px;
+  }
+  h1 {
+    font-size: 50px;
+    text-align: center;
+    margin: 20px 0 20px;
+    color: bisque;
+  }
+  h1 small {
+    display: block;
+    font-size: 25px;
+    padding-top: 20px;
+    color:antiquewhite;
+  }
+  .avatar-upload {
+    position: relative;
+    max-width: 400px;
+    margin: 50px auto;
+  }
+  .avatar-upload .avatar-edit {
+    position: absolute;
+    right: 12px;
+    z-index: 1;
+    top: 50px;
+  }
+  .avatar-upload .avatar-edit input {
+    display: none;
+  }
+  .avatar-upload .avatar-edit input + label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 0;
+    border-radius: 100%;
+    background: bisque;
+    border: 1px solid transparent;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+    font-weight: normal;
+    transition: all 0.2s ease-in-out;
+  }
+  .avatar-upload .avatar-edit input + label:hover {
+    background: bisque;
+    border-color:#1A4D2E;
+  }
+  .avatar-upload .avatar-edit input + label:after {
+    content: "\f040";
+    font-family: 'FontAwesome';
+    color: #1A4D2E ;
+    position: absolute;
+    top: 18px;
+    left: 0;
+    right: 0;
+    scale: 200%;
+    text-align: center;
+    margin: auto;
+  }
+  .avatar-upload .avatar-preview {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    border-radius: 100%;
+    border: 6px solid bisque;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+  }
+  .avatar-upload .avatar-preview > div {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; }
+.social {
+          width: 450px;
+          margin: auto;
+          padding-bottom: 25px;
+        }
+            
+.social a {
+            height: 50px;
+            display: block;
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            color: #1A4D2E ;
+            background: bisque;
+            font-size: 22px;
+            text-decoration: none;
+            text-align: center;
+            line-height: 50px;
+            border-radius: 50px;   
+        }
+.social a:hover {
+              background:#1A4D2E;
+              color: #fff;
+              }
