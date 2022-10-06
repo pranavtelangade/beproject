@@ -11,23 +11,33 @@
 <body class="img js-fullheight" style="background-image: url(images/bg.jpg);">
 <!-- partial:index.partial.html -->
 <div class="wrapper">
-  <div class="container">
-    <h1>Upload videos</h1>
-    <div class="upload-container">
-      <div class="border-container">
-        <div class="icons fa-4x">
-          <i class="fas fa-file-video" data-fa-transform="shrink-3 down-2 left-6 rotate--45"></i>
-          <i class="fas fa-file-video" data-fa-transform="shrink-2 up-4"></i>
-          <i class="fas fa-file-video" data-fa-transform="shrink-3 down-2 right-6 rotate-45"></i>
-        </div>
-        <input type="file" id="file-upload"  accept=".mp4, .mov" multiple/>
-        <p>Drag and drop videos here, or 
-          <a href="#" id="file-browser">browse</a> your computer.</p>
+	<section class="ftco-section">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-6 text-center mb-5">
+					<h2 class="heading-section">Trace The Trail</h2>
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-md-6 col-lg-4">
+					<div class="login-wrap p-0">
+		      	<h3 class="mb-4 text-center">Person found in:</h3>
+  <div class="social">
+    <a href="#popup1">Exit</a>
+  </div>
+  <div id="popup1" class="overlay">
+    <div class="popup">
+      <h2>Are you sure to exit?</h2>
+      <a class="close" href="#">&times;</a>
+      <div class="content">
+        <div class="exit">
+			<a href="index.html">Yes</a>
+		  </div>
+		  <div class="exit">
+			<a href="#">No</a>
+		  </div>
       </div>
     </div>
-  </div>
-  <div class="social">
-    <a href="found.html">Submit</a>
   </div>
 </div>
 <!-- partial -->
