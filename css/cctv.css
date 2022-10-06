@@ -97,3 +97,10 @@ h1 {
         background:#1A4D2E;
         color: #fff;
 }
+
+video {
+  align-items: center;
+  padding: 20px;
+  width: 200px;
+  height: auto;
+} 
